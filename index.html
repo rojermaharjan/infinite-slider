@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      overscroll-behavior: none;
+    }
+
+    canvas {
+      display: block;
+    }
+
+    h1 {
+      font-family: Helvetica, sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 9000;
+      transform: translate(-50%, -50%);
+      font-size: 4em;
+      color: #fff;
+      white-space: nowrap;
+      mix-blend-mode: difference;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Slider</h1>
+  <script src="app.js"></script>
+</body>
+
+</html>
